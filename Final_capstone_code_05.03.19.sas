@@ -2,14 +2,14 @@
 /* 										        						*/
 /* Capstone Project: Predicting Glucose Monitoring Method Conversion 	*/
 /*                                                                      */
-/* Prepared By:				                                            */
-/*     Kornkanok Somkul                                        			*/
+/* Prepared By:				                                */
+/*     Kornkanok Somkul                                        		*/
 /*     Shashi Bala Lnu                                                 	*/
 /*     Peter Cao                                                    	*/                      
-/* 							                                            */
+/* 							                */
 /* National University                                                	*/
-/* May 2019                                      						*/
-/*     									                                */
+/* May 2019                                      			*/
+/*     								        */
 /************************************************************************/
 
 ****************;
@@ -306,7 +306,7 @@ data cproject.clean; set work.clean; run;
 
 
 *********************;
-* INVESTIGATION		*; 
+* INVESTIGATION     *; 
 *********************;
 
 ** THE CHI-SQUARE TEST FOR INDEPENDENCE;
@@ -403,7 +403,7 @@ proc reg data=work.checkvif;
 data cproject.clean; set work.checkvif; run;
 
 *********************;
-* EXPLORING ROUND2	*; 
+* EXPLORING ROUND2  *; 
 *********************;
 
 	*~cgm_conversion;
@@ -477,7 +477,7 @@ proc sgplot data=&data2;
 
 
 *********************;
-* DATA SPLITTING	*; 
+* DATA SPLITTING    *; 
 *********************;
 
 **CROSS VALIDATION - 75/25 split;
@@ -512,7 +512,7 @@ data work.train work.validate;
 run;
 
 *************;
-* MODELING	*; 
+* MODELING  *; 
 *************;
 
 /* THE NULL HYPOTHESIS = THERE IS NO ASSOCIATION BETWEEN CONVERTING PATIENTS AND REFERRALS
