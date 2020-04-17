@@ -1,6 +1,6 @@
 /************************************************************************/
-/* 										        						*/
-/* Capstone Project: Predicting Glucose Monitoring Method Conversion 	*/
+/* 									*/	        						*/
+/* Predicting Glucose Monitoring Method Conversion 			*/
 /*                                                                      */
 /* Prepared By:				                                */
 /*     Kornkanok Somkul                                        		*/
