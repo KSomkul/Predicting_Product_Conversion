@@ -1,6 +1,6 @@
 /************************************************************************/
 /* 									*/	        						*/
-/* Predicting Glucose Monitoring Method Conversion 			*/
+/* Predicting Product Conversion 					*/
 /*                                                                      */
 /* Prepared By:				                                */
 /*     Kornkanok Somkul                                        		*/
@@ -128,7 +128,7 @@ data work.ads; set &data;
 	* Handling Categorical Variables;	
 	* ~referral type from 35 to 3 categories;	
 	referral_type2 = referral_type;
-	if referral_type in ('ADS MARKETING' 'ADS EMPLOYEE' 'INSURANCE COMPANY' 'DEXCOM' 'TRADE SHOW' 'DME' 'GAS CARD REFERRAL' 
+	if referral_type in ('MARKETING' 'EMPLOYEE' 'INSURANCE COMPANY' 'DEXCOM' 'TRADE SHOW' 'DME' 'GAS CARD REFERRAL' 
 						 'INSURANCE COMPANY' 'MANUFACTURER' 'INTERNET' 'PATIENT REFERRAL') 
 		then referral_type2 = 'COMMERCIAL';
 	if referral_type in ('UHC Agent' 'ICA Agent' 'EDC Agent' 'MANAGED CARE BROK' 'INSURANCE BROKER') 
@@ -640,20 +640,3 @@ proc export DATa=cproject.clean
 outfile="~/Capstone/data"
 dbms=XLS replace;
 run;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
