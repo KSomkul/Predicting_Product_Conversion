@@ -20,7 +20,7 @@ This data contained socio-economic, demographic and clinical information from 45
 2.Data Analysis
   - Logistic Regression Model
   - Propensity Scoring 
-  - Classification trees 
+  - Classification trees (Decision Tree, Random Forest, and Gradient Boosting)
   - Discriminant Analysis (LDA) 
 
 3.Model Selection and Evaluation
