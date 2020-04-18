@@ -1,4 +1,4 @@
-# Predicting Conversion from Self-Monitoring of Blood Glucose (SMBG) to Continuous Glucose Monitoring (CGM) using Clinical and Demographic Characteristics Conversion
+# Predicting Glucose Monitoring Method Conversion
 
 ## Project Overview
 
