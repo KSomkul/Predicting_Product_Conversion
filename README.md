@@ -7,24 +7,23 @@ A diabetes supply company is an outpatient facility that primarily delivers diab
 National University’s Master of Data Science Students were asked by the company to build a predictive model to identify prospective patients who would be likely to convert from the traditional finger-pricking method for their glucose monitoring to the continuous glucose method – specifically to the Freestyle Libre. 
 
 ## Data Overview
+
 This data contained socio-economic, demographic and clinical information from 45,000 U.S. diabetic patients of a diabetes supply company in year 2019.
 
-## Analytic software
-SAS version 9.4
-SAS Enterprise Miner Workstation 14.2 
-Tableau desktop 2019.1 
-
 ## Methodology
-Data Management
+
+1.Data Management
   - Exploratory Data Analysis
   - Data Preprocessing
   - Data Split
-Data Analysis
+
+2.Data Analysis
   - Logistic Regression Model
   - Propensity Scoring 
   - Classification trees 
   - Discriminant Analysis (LDA) 
-Model Selection and Evaluation
+
+3.Model Selection and Evaluation
   - Confusion Matrix 
   - Sensitivity
   - Specificity 
@@ -32,5 +31,12 @@ Model Selection and Evaluation
   - C-statistic 
   - Odds Ratio Analysis 
   
+## Analytic Software Used
+
+- SAS version 9.4
+- SAS Enterprise Miner Workstation 14.2 
+- Tableau desktop 2019.1 
+
 ## Data source
+
 A diabetes supply company (Confidential data)
