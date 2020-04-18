@@ -6,7 +6,7 @@ A diabetes supply company is an outpatient facility that primarily delivers diab
 
 National University’s Master of Data Science Students were asked by the company to build a predictive model to identify prospective patients who would be likely to convert from the traditional finger-pricking method for their glucose monitoring to the continuous glucose method – specifically to the Freestyle Libre. 
 
-## Data Overview
+## Data
 
 This data contained socio-economic, demographic and clinical information from 45,000 U.S. diabetic patients of a diabetes supply company in year 2019.
 
