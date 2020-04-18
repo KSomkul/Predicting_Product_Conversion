@@ -8,7 +8,7 @@ National University’s Master of Data Science Students were asked by the compan
 
 ## Data
 
-This data contained socio-economic, demographic and clinical information from 45,000 U.S. diabetic patients of a diabetes supply company in year 2019.
+This data contained socio-economic, demographic and clinical information of 48,866 U.S. diabetic patients from a diabetes supply company.
 
 ## Methodology
 
